@@ -37,6 +37,12 @@ class UserCrudController extends CrudController
         $this->crud->setFromDb();
 
         $this->crud->addField([
+            'label' => 'Current password',
+            'name' => 'password_alias',
+            'type' => 'text',
+        ]);
+
+        $this->crud->addField([
             'label' => 'New password',
             'name' => 'password',
             'type' => 'password_meter',
