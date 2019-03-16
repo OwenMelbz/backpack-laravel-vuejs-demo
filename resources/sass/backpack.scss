@@ -1,0 +1,9 @@
+/*
+* Just to demonstrate our CSS loading.
+*/
+
+.logo-lg {
+    &::after {
+        content: ' & Vue'
+    }
+}
