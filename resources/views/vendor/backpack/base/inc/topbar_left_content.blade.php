@@ -23,3 +23,7 @@
         <i class="fa fa-cog"></i> Direct Link
     </a>
 </li>--}}
+
+<li>
+    <shared-state-output />
+</li>

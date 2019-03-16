@@ -1,9 +1,11 @@
 import Vue from 'vue';
 
 import PasswordMeter from './fields/PasswordMeter';
+import SharedStateOutput from './components/SharedStateOutput';
 
 const components = {
     'password-meter': PasswordMeter,
+    'shared-state-output': SharedStateOutput,
 };
 
 Object.keys(components).forEach(selector => {
