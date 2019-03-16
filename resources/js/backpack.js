@@ -1,6 +1,9 @@
 import Vue from 'vue';
 
+import PasswordMeter from './fields/PasswordMeter';
+
 const components = {
+    'password-meter': PasswordMeter,
 };
 
 Object.keys(components).forEach(selector => {
